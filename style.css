@@ -31,7 +31,7 @@ a:hover{
 
 }
 a{
-    color: rgb(32, 32, 32);
+    color: rgb(253, 248, 222);
 }
 
 .linktop{
@@ -98,10 +98,11 @@ input{
 } 
 
 #covid{
- margin: 60px;
-width: 300px;
-height: 400px;
+    margin: 60px;
+    width: 300px;
+    height: 400px;
 } 
+
 #city{
     padding:  60px
 }
@@ -109,7 +110,7 @@ height: 400px;
     margin: 60px;
     box-sizing: border-box;
 }
-h1{
-    font-style: italic  black;
-    position: relative;
+
+.bildtexter a{
+ color: black;
 }
