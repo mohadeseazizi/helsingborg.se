@@ -1,12 +1,8 @@
-body{
 
-
-}
 #logo{
     height: 84px;
     width: 300px;
     margin-left: 5%; 
-    
 }
 .links{
     padding-top: 20px;
@@ -73,17 +69,17 @@ height: 10px;
     background-image: url(aker_1920x373px_farg_komprimerad-1800x349.jpg );
     background-size: cover;
     position: relative;
-
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
-form{
-    position: absolute;
-    top: 10px;
-    right: 50px;
-    margin: 100px;
-    height: 130px;
-    left: 350px;
-
+.texten{
+    
+    display: flex ;
+   width: 400px;
 }
+
 input{
     border-style: none;
     height: 50px;
@@ -91,10 +87,7 @@ input{
 }
 .card{ 
     display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
-    padding: px;
-   
+    
 } 
 
 #covid{
